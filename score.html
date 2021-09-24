@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel = "stylesheet" href = 'score.css'>
+    <style>
+        .winner{
+            color: green;
+        }
+        .looser{
+            color: red;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div>
+            <h1> Score Keeper</h2>
+            <h2 ><span id = "p1Score">0</span >  <span id = 'p2Score'>0</span> <span id='winnerName'></span></h1>
+            
+            <select id = "chooseScore">
+                <option value = "3" >3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+            <button id = "p1button">+Player 1</button> 
+            <button  id = "p2button">+Player 2 </button>
+            <button id  = 'reset'>Reset</button>
+            </div>
+            <script src = "score.js"></script>
+
+    </body>
+</html>
